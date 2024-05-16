@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>2.2 Elementos de un Diagrama de Componentes | 3. Diagrama Estructurales </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Innovación" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-6"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">3. Diagrama Estructurales</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">3. Diagramas Estructurales</a></li>
+   <li><a href="11_introduccin_diagramas_de_clases.html" class="no-ch">1.1 Introducción Diagramas de Clases</a></li>
+   <li><a href="12_elementos_de_un_diagrama_de_clases.html" class="no-ch">1.2 Elementos de un Diagrama de Clases</a></li>
+   <li><a href="13_creando_un_diagrama_de_clases.html" class="no-ch">1.3 Creando un Diagrama de Clases</a></li>
+   <li><a href="14_ejemplos_de_diagramas_de_clases.html" class="no-ch">1.4 Ejemplos de Diagramas de Clases</a></li>
+   <li><a href="21_introduccin_diagramas_de_componentes.html" class="no-ch">2.1 Introducción Diagramas de Componentes</a></li>
+   <li id="active"><a href="22_elementos_de_un_diagrama_de_componentes.html" class="active no-ch">2.2 Elementos de un Diagrama de Componentes</a></li>
+   <li><a href="23_creando_un_diagrama_de_componentes.html" class="no-ch">2.3 Creando un Diagrama de Componentes</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="21_introduccin_diagramas_de_componentes.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="23_creando_un_diagrama_de_componentes.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">2.2 Elementos de un Diagrama de Componentes</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id11">
+<div class="iDevice emphasis0">
+<div id="ta11_85" class="block iDevice_content">
+<h2><strong>Elementos o Partes de un Diagrama de Componentes:</strong></h2>
+<p style="text-align: justify;"><strong>Componentes:</strong> Los componentes son las partes principales del sistema que encapsulan funcionalidades relacionadas y pueden ser reutilizados en diferentes contextos. Se representan con rectángulos con su nombre en su interior. Cada componente puede estar formado por otros componentes más pequeños, formando una jerarquía de componentes.</p>
+<p style="text-align: justify;"><strong>Interfaces:</strong> Las interfaces son los puntos de conexión que los componentes ofrecen a otros componentes. Pueden ser interfaces requeridas o interfaces proporcionadas. Las interfaces requeridas especifican las funcionalidades que un componente necesita de otros componentes para funcionar correctamente, mientras que las interfaces proporcionadas especifican las funcionalidades que un componente ofrece a otros componentes. Se representan con líneas en los bordes de los componentes.</p>
+<p style="text-align: justify;"><strong>Relaciones de Dependencia:</strong> Las relaciones de dependencia representan las dependencias entre los componentes, indicando que un componente depende de otro en algún aspecto, por ejemplo, mediante la utilización de sus interfaces. Se representan con líneas sólidas entre los componentes, con una flecha que apunta desde el componente que depende hacia el componente del que depende.</p>
+<p style="text-align: justify;"><strong>Relaciones de Asociación:</strong> Las relaciones de asociación representan las asociaciones entre los componentes, indicando que un componente utiliza o está relacionado de alguna manera con otro componente. Se representan con líneas sólidas entre los componentes, sin flechas.</p>
+<p style="text-align: justify;"><strong>Grupos de Componentes:</strong> En algunos casos, es útil agrupar varios componentes relacionados en un único componente de nivel superior. Esto puede ayudar a simplificar la representación del diagrama y a mostrar relaciones de dependencia o asociación entre grupos de componentes. Se representan con rectángulos que contienen otros componentes en su interior.<img src="diagrama-componente.png" width="737" height="415" alt="image7" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<h2><strong>Usos y Beneficios de los Diagramas de Componentes:</strong></h2>
+<div class="exe-fx exe-carousel">
+<h2>Visualización de la Arquitectura del Sistema</h2>
+<p style="text-align: justify;">Los diagramas de componentes proporcionan una vista de alto nivel de la estructura de componentes del sistema, lo que facilita la comprensión de su arquitectura.</p>
+<h2>Identificación de Componentes Clave</h2>
+<p style="text-align: justify;">Permiten identificar los componentes principales del sistema y comprender cómo están organizados y relacionados entre sí.</p>
+<h2>Análisis de Dependencias y Asociaciones</h2>
+<p style="text-align: justify;">Ayudan a analizar las dependencias y asociaciones entre los componentes del sistema, lo que puede ser útil para identificar posibles puntos de fallo o mejorar la modularidad y la reutilización del código.</p>
+<h2>Documentación del Diseño del Sistema</h2>
+<p style="text-align: justify;">Los diagramas de componentes pueden ser utilizados como parte de la documentación del diseño del sistema, proporcionando una representación visual de su estructura y componentes.</p>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="21_introduccin_diagramas_de_componentes.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="23_creando_un_diagrama_de_componentes.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>

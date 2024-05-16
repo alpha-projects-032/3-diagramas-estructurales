@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>1.2 Elementos de un Diagrama de Clases | 3. Diagrama Estructurales </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Innovación" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-2"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">3. Diagrama Estructurales</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">3. Diagramas Estructurales</a></li>
+   <li><a href="11_introduccin_diagramas_de_clases.html" class="no-ch">1.1 Introducción Diagramas de Clases</a></li>
+   <li id="active"><a href="12_elementos_de_un_diagrama_de_clases.html" class="active no-ch">1.2 Elementos de un Diagrama de Clases</a></li>
+   <li><a href="13_creando_un_diagrama_de_clases.html" class="no-ch">1.3 Creando un Diagrama de Clases</a></li>
+   <li><a href="14_ejemplos_de_diagramas_de_clases.html" class="no-ch">1.4 Ejemplos de Diagramas de Clases</a></li>
+   <li><a href="21_introduccin_diagramas_de_componentes.html" class="no-ch">2.1 Introducción Diagramas de Componentes</a></li>
+   <li><a href="22_elementos_de_un_diagrama_de_componentes.html" class="no-ch">2.2 Elementos de un Diagrama de Componentes</a></li>
+   <li><a href="23_creando_un_diagrama_de_componentes.html" class="no-ch">2.3 Creando un Diagrama de Componentes</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="11_introduccin_diagramas_de_clases.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="13_creando_un_diagrama_de_clases.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">1.2 Elementos de un Diagrama de Clases</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id7">
+<div class="iDevice emphasis0">
+<div id="ta7_85" class="block iDevice_content">
+<p>Los diagramas de clases en UML son una herramienta de modelado utilizada en el desarrollo de software para representar la estructura estática de un sistema. Permiten visualizar las clases del sistema, sus atributos, métodos y las relaciones entre ellas.</p>
+<p><strong>Partes de un Diagrama de Clases:</strong></p>
+<p><strong>1. Clase:</strong> Representa una entidad en el sistema y se representa con un rectángulo dividido en tres secciones: nombre de la clase, atributos y métodos.</p>
+<p>Tanto los atributos como las funciones incluyen al principio de su descripción la visibilidad que tendrá. Esta visibilidad se identifica escribiendo un símbolo y podrá ser:</p>
+<p style="padding-left: 30px;"><strong>(+) Pública:</strong> Representa que se puede acceder al atributo o función desde cualquier lugar de la aplicación.<br /><strong>(-) Privada:</strong> Representa que se puede acceder al atributo o función únicamente desde la misma clase.<br /><strong>(#) Protegida:</strong> Representa que el atributo o función puede ser accedida únicamente desde la misma clase o desde las clases que hereden de ella (clases derivadas).</p>
+<p><strong>2. Atributos:</strong> Son las propiedades o características de una clase. Se representan dentro de la sección de atributos, indicando el nombre del atributo y su tipo de dato.</p>
+<p><strong>3. Métodos:</strong> Son las operaciones que una clase puede realizar. Se representan dentro de la sección de métodos, indicando el nombre del método, sus parámetros (si los tiene) y su tipo de retorno.</p>
+<p><strong>4. Relaciones:</strong></p>
+<p style="padding-left: 30px;"><strong>4.1 Asociación:</strong> Representa una conexión entre dos clases, indicando que los objetos de una clase están relacionados con los objetos de la otra clase.</p>
+<p style="padding-left: 30px;"><strong>4.2 Agregación:</strong> Indica una relación parte-todo entre una clase "todo" y una clase "parte".</p>
+<p style="padding-left: 30px;"><strong>4.3 Composición:</strong> Es similar a la agregación, pero con una relación más fuerte, donde la parte no puede existir independientemente del todo.</p>
+<p style="padding-left: 30px;"><strong>4.4 Herencia (Generalización):</strong> Representa una relación de especialización entre clases, donde una subclase hereda los atributos y métodos de una superclase.</p>
+<p style="padding-left: 30px;"><strong>4.5 Dependencia:</strong> Indica que una clase depende de otra en algún aspecto, por ejemplo, mediante la utilización de sus métodos o atributos.</p>
+<p><strong>5. Interfaces:</strong> Especifican un conjunto de métodos que una clase debe implementar.</p>
+<p><img src="diagrama-de-clases-uml-768x495.jpg" alt="" width="500" height="322" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p><strong><span style="font-size: 14pt;">Ejemplos de Aplicación:</span></strong></p>
+<div class="exe-fx exe-carousel">
+<h2>Sistemas de Gestión de Bibliotecas</h2>
+<p style="text-align: justify;">Los diagramas de clases se utilizan para modelar las entidades del sistema, como libros, usuarios, préstamos, etc., y las relaciones entre ellas, como la asociación entre un usuario y los libros que ha prestado.</p>
+<h2>Sistemas de Ventas en Línea</h2>
+<p style="text-align: justify;">Se utilizan para modelar las entidades del sistema, como productos, clientes, pedidos, entre otros, y las relaciones entre ellas, como la asociación entre un cliente y los productos que ha comprado.</p>
+<h2>Desarrollo de Videojuegos</h2>
+<p style="text-align: justify;">Los diagramas de clases se utilizan para modelar los elementos del juego, como personajes, enemigos, objetos, etc., y las relaciones entre ellos, como la herencia entre diferentes tipos de enemigos.</p>
+</div>
+<p></p>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="11_introduccin_diagramas_de_clases.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="13_creando_un_diagrama_de_clases.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
